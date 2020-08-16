@@ -4,7 +4,6 @@
 	width: 80%;
 	margin-left: 10%;
 	padding: 5px;
-	display: flex;
 }
 
 /* on larger screens the navbar*/
@@ -96,9 +95,9 @@ section{
 .slidebar{
 	background: dodgerblue;
 	height: 100%;
-	width: 30%;
+	width: 35%;
 	position: fixed;
-	left: -40%;
+	left: -50%;
 	transition: all .5s ease;
 	
 }
