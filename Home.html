@@ -3,41 +3,172 @@
 <head>
 	<title>Track Trace</title>
 	<link rel="stylesheet" type="text/css" href="styles/navbanner.css">
+	<link rel="stylesheet" type="text/css" href="styles/home.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
 <input type="checkbox" id="check">
 	<label for="check" id="checkmenubar">
-		<i><img src="images/download-1.png" height="30px" id="btn"></i>
-	<i><img src="images/images-3.png" height="30px" id="cancel"></i>
+		<i><img src="images/icons/menuambar.png" height="30px" id="btn"></i>
+	<i><img src="images/icons/close.png" height="30px" id="cancel"></i>
 	</label>
+	<div id="logoholder">
+<center>company logo
+<span style="color: dodgerblue;font-size: 24px">Track Trace</span></center><br>
+</div>
 	<div class="slidebar">
 		<header>Track Trace</header>
 		<br>
 		<center>
 		<a href="#" class="active">Home</a>
-	<a href="#">Vehicle Tracking</a>
-	<a href="#">Fleet Management</a>
-	<a href="#">Fuel Monitoring</a>
-	<a href="#">Logins</a>
-	<a href="#">About Us</a>
+	    <a href="Fleetmanager.html">Fleet Manager</a>
+	    <a href="Vehicletracking.html">Vehicle Tracking</a>
+	    <a href="Fuelconsuption.html">Fuel Consuption</a>
+	    <a href="Logins.html">Logins</a>
+	    <a href="Aboutus.html">About Us</a>
 		</center>
 	</div>
 	<section>
-		<div> content <br>
-			Helloe<br>
-		Helloe<br>
-		Helloe<br>
-		Helloe<br>
-		Helloe<br>
-		Helloe<br>
+		<div id="content"><br>
+			<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/slide/car.jpg" style="height: 40%" id="slideimage">
+  
+<div class="text">Brand Image</div>
+
+</div>
+<div class="mySlides fade">
+  <img src="images/slide/car.jpg" style="height: 40%" id="slideimage">
+  <div class="text">Company image</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/slide/car.jpg" style="height: 40%" id="slideimage">
+  
+<div class="text">Vehicle Tracking</div>
+
+</div>
+<div class="mySlides fade">
+  <img src="images/slide/car.jpg" style="height: 40%" id="slideimage">
+  
+<div class="text">Fuel Consuption</div>
+
+</div>
+<div class="mySlides fade">
+  <img src="images/slide/car.jpg" style="height:100%" id="slideimage">
+ 
+<div class="text">Cargo Tracking</div>
+
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<br>
+
+ </div>
+</div>
+<br>
+<div id="infor-card">
+	<div id="text-infor">
+		<center><label style="color: crimson"><b>How we work</b></label></center>
+		<p>
+			With our vehicle tracking solutions, you can monitor your vehicle’s movements in real time. You get information that lets you know its current location, what route the driver took to get there, how long it took to get there, and how much fuel was used on the way. Our solutions go well beyond simply telling you where your vehicle is.<br>
+		</p>
+	</div>
+	<div id="contact-us">
+		<center><label style="color: crimson"><b>Contact Us</b></label></center>
+		<fieldset>
+			<legend>Your Message</legend>
+			<center>
+			<label><b>Your Name :</b></label><br>
+			<input type="text" name="" placeholder="Enter your name" id="txtname">
+			<br>
+			<label><b>Your Phone :</b></label><br>
+			<input type="text" name="" placeholder="Enter Phone Number" id="txtphone">
+			<br>
+			<label><b>Your Subject :</b></label><br>
+			<select id="cmbsubject">
+				<option>Your Subject</option>
+				<option>Vehicle tracking</option>
+				<option>Fuel Consuption</option>
+				<option>Fleet Manager</option>
+				<option>Help</option>
+			</select><br><br>
+			<textarea id="txtmessagebox"></textarea><br><br>
+			<button id="submitmessage">Submit</button>
+			</center>
+		</fieldset>
+	</div>
+	
+</div>
+		<br><br>
+		<div id="footer">
+		<div id="footerbanner">
+		<div id="footerservice">
+			<label><u><b>Our Patners</b></u></label><br>
+            facebook<br>
+			Twitter<br>
+			Instagram<br>
+		 </div>
+		<div id="footerlinks">
+			<label><u><b>Our Social Media</b></u></label><br>
+			<table>
+			<tr>
+				<td><a href="#" style="color: black"><img src="images/icons/twitter.png" width="24px"></a></td>
+				<td><a href="#">Twitter</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" style="color: black"><img src="images/icons/skype.png" width="24px"></a></td>
+				<td><a href="#">Skype</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" style="color: black"><img src="images/icons/linkedin.png" width="24px"></a></td>
+				<td><a href="#">Linkedin</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" style="color: black"><img src="images/icons/facebook.png" width="24px"></a></td>
+				<td><a href="#">Facebook</a></td>
+			</tr>
+	
+	</table>
+
 		</div>
-		
-		<div>
-		footer
+		<div id="footercontacts"> 
+			<label><u><b>Contact Us</b></u></label><br>
+			<table>
+				<tr>
+				<td><a href="mailto:kirwadan03@gmail.com?subject=My reach out!" style="color: black"><img src="images/icons/Gmail.png" width="24px"> </a></td>
+				<td><a href="#">Email</a></td>
+			</tr>
+			<tr>
+
+				<td><a><img src="images/icons/phone.png" width="24px"></a></td>
+				<td>0791958878</td>
+			</tr>
+			<tr>
+				<td><a><img src="images/icons/phone.png" width="24px"></a></td>
+				<td>0738161992</td>
+			</tr>
+</table>
+		</div>
+	</div>
+	<center>
+     <p>
+		&copy; 2020-2020  &trade; &nbsp;&nbsp; Track Trace    
+	</p>
+	</center>
+	<br>
 	</div>
 	</section>
+
+	<script type="text/javascript" src="scripts/home.js"></script>
 	
 </body>
 </html>

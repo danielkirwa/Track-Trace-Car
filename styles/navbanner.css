@@ -1,9 +1,23 @@
-/* on larger screens*/
+/*on larger screens main content display*/
+#content{
+	background: #f1f1f1;
+	width: 80%;
+	margin-left: 10%;
+	padding: 5px;
+	display: flex;
+}
+
+/* on larger screens the navbar*/
+#logoholder{
+	transition: all .5s;
+	background: #f1f1f1;
+}
 .slidebar{
-	background: #0056ff;
-	width: 97%;
+	background: dodgerblue;
 	padding: 20px;
 	transition: all .5s ease;
+	top: 0px;
+
 	
 }
 .slidebar a{
@@ -12,33 +26,75 @@
 	color: white;
 	padding: 10px;
 	box-sizing: border-box;
-	transition: all .5s ease;
-
+	transition: all 1s ease;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
 }
 .slidebar a:hover{
 	border-bottom:3px solid white;
-	background: #00C0FF;
-	border-bottom-color: red;
+	background: crimson;
+	border-bottom-color: white;
 
 }
 #checkmenubar, #check{
 	display: none;
 }
 .active{
-	background: #00C0FF;
+	background: crimson;
 }
 section{
 	background: #FFF;
-	height: 900px;
 	transition: all .5s;
 	padding: 10px;
 	display: block;
 	
 }
+/*footer */
+#footer{
+	background: crimson;
+}
+.active{
+	background: crimson;
+}
+#footerbanner{
+	background: dodgerblue;
+	display: flex;
+	
+}
+#footerbanner a{
+	color: white;
+	
+}
+#footercontacts{
+	background: dodgerblue;
+	padding: 20px;
+	color: white;
+	width: 30%;
+	border-left:1px solid white;
+}
+#footerlinks{
+	background: dodgerblue;
+	padding: 20px;
+	color: white;
+	width: 30%;
+	border-left:1px solid white;
+}
+#footerservice{
+	background: dodgerblue;
+	padding: 20px;
+	color: white;
+	width: 30%;
+}
 /*change menubar on small screen*/
 @media (max-width: 800px){
+	#content{
+	background: #f1f1f1;
+	width: 100%;
+	margin-left: 0%;
+	padding: 5px;
+}
 .slidebar{
-	background: #0056ff;
+	background: dodgerblue;
 	height: 100%;
 	width: 30%;
 	position: fixed;
@@ -65,14 +121,16 @@ section{
 	font-size: 15px;
 	color: white;
 	padding: 0;
+	transition: all 1s ease;
 	padding-left: 5px;
 	box-sizing: border-box;
 	border-top: 1px solid rgba(255,255,255,.1);
-	border-bottom:1px solid black;
+	border-bottom:1px solid white;
 
 }
 .slidebar a:hover{
-	background: #2f77F0;
+	background: crimson;
+	border-bottom:3px solid white;
 
 }
 #checkmenubar{
@@ -87,16 +145,16 @@ section{
 }
 #checkmenubar #cancel{
 	left: -14%;
-	top :20px;
+	top :0px;
 	transition: all .5s ease;
 	z-index: 1000;
 	position: fixed;
-	height: 3vw;
+	height: 30px;
 }
 #checkmenubar #btn{
 	left: 3%;
 	top :20px;
-	position: fixed;
+	
 	transition: all .5s ease;
 }
 
@@ -111,22 +169,64 @@ section{
 	pointer-events: none;
 }
 #check:checked ~ #checkmenubar #cancel{
-	left: 34%;
-	top: 2%;
+	left: 32%;
+	top: 0%;
 }
 #check:checked ~ section{
-	margin-left: 40%;
+	margin-left: 38%;
+}
+#check:checked ~ #logoholder{
+	margin-left: 38%;
 }
 section{
 	background: #FFF;
-	height: 900px;
 	transition: all .5s;
 	padding: 10px;
 	display: block;
 	
 }
 
+
 .active{
-	background: #00C0FF;
+	background: crimson;
 }
+/*footer on small screens */
+#footerbanner{
+	background: dodgerblue;
+	display: block;
+	
 }
+#footerbanner a{
+	color: white;
+	
+}
+#footercontacts{
+	background: dodgerblue;
+	padding: 20px;
+	color: white;
+	width: 90%;
+	border-bottom:none;
+	border-left:none;
+}
+#footerlinks{
+	background: dodgerblue;
+	padding: 20px;
+	color: white;
+	width: 90%;
+	border-bottom:1px solid white;
+	border-left:none;
+}
+#footerservice{
+	background: dodgerblue;
+	padding: 20px;
+	color: white;
+	width: 90%;
+	border-bottom:1px solid white;
+	border-left:none;
+}
+#footer{
+	width: 100%;
+}
+
+}
+
