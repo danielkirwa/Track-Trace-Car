@@ -87,7 +87,7 @@ section{
 /*change menubar on small screen*/
 @media (max-width: 800px){
 	#content{
-	background: #f1f1f1;
+	background: dodgerblue;
 	width: 100%;
 	margin-left: 0%;
 	padding: 5px;
@@ -95,11 +95,11 @@ section{
 .slidebar{
 	background: dodgerblue;
 	height: 100%;
-	width: 35%;
+	width: 40%;
 	position: fixed;
 	left: -50%;
 	transition: all .5s ease;
-	
+	z-index: 100;
 }
 .slidebar header{
 	color: blue;
@@ -143,7 +143,7 @@ section{
 	cursor: pointer;
 }
 #checkmenubar #cancel{
-	left: -14%;
+	left: -24%;
 	top :0px;
 	transition: all .5s ease;
 	z-index: 1000;
@@ -168,11 +168,11 @@ section{
 	pointer-events: none;
 }
 #check:checked ~ #checkmenubar #cancel{
-	left: 32%;
+	left: 40%;
 	top: 0%;
 }
 #check:checked ~ section{
-	margin-left: 38%;
+	margin-left: 20%;
 }
 #check:checked ~ #logoholder{
 	margin-left: 38%;
@@ -201,7 +201,7 @@ section{
 }
 #footercontacts{
 	background: dodgerblue;
-	padding: 20px;
+	padding: 2%;
 	color: white;
 	width: 90%;
 	border-bottom:none;
@@ -209,7 +209,7 @@ section{
 }
 #footerlinks{
 	background: dodgerblue;
-	padding: 20px;
+	padding: 2%;
 	color: white;
 	width: 90%;
 	border-bottom:1px solid white;
@@ -217,7 +217,7 @@ section{
 }
 #footerservice{
 	background: dodgerblue;
-	padding: 20px;
+	padding: 2%;
 	color: white;
 	width: 90%;
 	border-bottom:1px solid white;

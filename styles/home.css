@@ -1,3 +1,6 @@
+p{
+  font-size: 18px;
+}
 #infor-card{
   background: #f1f1f1;
   width: 80%;
@@ -48,13 +51,13 @@
 
 /* slide images*/
 .slideshow-container {
-  width: 70%;
+  width: 50%;
   position: relative;
   margin: auto;
 }
 #slideimage{
   	width: 100%;
-  	
+  	width: 100%;
   }
   
 
