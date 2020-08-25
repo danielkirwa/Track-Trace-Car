@@ -21,7 +21,9 @@ function showSlides() {
 // mail functon add body and subject
 function mailus() {
   // body...
-  var name = document.getElementById('txtname');
+  /*var name = document.getElementById('txtname');
 var name = document.getElementById('txtphone');
-var name = document.getElementById('cmbsubject');
+var name = document.getElementById('cmbsubject');*/
+
+window.location.href= 'mailto:' + "kirwadan03@gmail.com",'subject' + "hello";
 }
