@@ -17,3 +17,11 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
+
+// mail functon add body and subject
+function mailus() {
+  // body...
+  var name = document.getElementById('txtname');
+var name = document.getElementById('txtphone');
+var name = document.getElementById('cmbsubject');
+}
